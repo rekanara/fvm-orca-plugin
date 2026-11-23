@@ -9,7 +9,7 @@ Control [FVM](https://fvm.app) (Flutter Version Manager) from Orca's right sideb
 
 ## Requirements
 
-- Orca 1.4.246 or later
+- Orca 1.4.247 or later
 - FVM 3.2 or later on this computer (uses `fvm api` and `--fvm-skip-input`)
 
 ## Develop

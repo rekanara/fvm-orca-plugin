@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "Control FVM (Flutter Version Manager) from Orca's sidebar: see the Flutter SDK pinned by the focused workspace, switch it with fvm use, install, remove and set the global SDK.",
   "license": "MIT",
-  "engines": { "orca": ">=1.4.246" },
+  "engines": { "orca": ">=1.4.247" },
   "pluginApi": 1,
   "main": "worker/main.mjs",
   "contributes": {
