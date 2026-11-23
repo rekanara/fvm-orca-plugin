@@ -344,6 +344,7 @@
 
       // Follow Orca's focus: a new workspace means a new project to read.
       let lastWs
+      let started = false
       window.orca.on('workspace.changed', ({ context }) => {
         const key = context ? `${context.workspaceId || ''}|${context.displayName}|${context.branch}` : ''
         if (key === lastWs) return
@@ -352,7 +353,6 @@
         refresh()
       })
       // Orca sends the current context as soon as we subscribe; refresh anyway if it doesn't.
-      let started = false
       setTimeout(() => { if (!started) { started = true; refresh() } }, 1500)
     </script>
   </body>
