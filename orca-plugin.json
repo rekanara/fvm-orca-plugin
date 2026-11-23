@@ -6,12 +6,21 @@
   "version": "0.1.0",
   "description": "Control FVM (Flutter Version Manager) from Orca's sidebar: see the Flutter SDK pinned by the focused workspace, switch it with fvm use, install, remove and set the global SDK.",
   "license": "MIT",
+  "icon": "assets/icon.png",
+  "screenshots": [
+    {
+      "path": "assets/screenshots/panel.png",
+      "alt": "FVM panel showing the pinned Flutter 3.47.5, installed SDKs with Use, Global and Remove, and stable Flutter releases with Install and Use",
+      "caption": "Pinned SDK, installed SDKs and Flutter releases",
+      "theme": "dark"
+    }
+  ],
   "engines": { "orca": ">=1.4.247" },
   "pluginApi": 1,
   "main": "worker/main.mjs",
   "contributes": {
     "panels": [
-      { "id": "fvm", "title": "FVM", "icon": "layers", "entry": "panel/index.html" }
+      { "id": "fvm", "title": "FVM", "icon": "package", "entry": "panel/index.html" }
     ],
     "settings": [
       {
