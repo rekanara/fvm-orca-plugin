@@ -3,7 +3,7 @@
   "execution": "trusted-worker",
   "id": "fvm-manager",
   "name": "FVM Manager",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Control FVM (Flutter Version Manager) from Orca's sidebar: see the Flutter SDK pinned by the focused workspace, switch it with fvm use, install, remove and set the global SDK.",
   "license": "MIT",
   "icon": "assets/icon.png",
